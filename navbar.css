@@ -47,7 +47,7 @@ a:hover {
 }
 .picsleep{
     float: left;
-    align-content: center;
+     order: 3;
 }
 
 
