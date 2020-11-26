@@ -35,6 +35,25 @@ a:hover {
 .button.secondary {
   border-bottom: 1px #444 solid;
 }
+.picossi{
+    float: left;
+    margin-top: 50px;
+    margin-left: 130px;
+}
+.picin{
+    float: left;
+    margin-top: 50px;
+    margin-left: 130px;
+}
+.picsleep{
+    float: left;
+    margin-top: 50px;
+    margin-left: 130px;
+}
+
+
+
+
 
 /* Mobile menu */
 .menu {
@@ -129,6 +148,7 @@ a:hover {
   .button.secondary a:hover {
       color: #ddd;
   } 
+    
 }
 
 /* Desktop menu */
@@ -155,4 +175,5 @@ a:hover {
   .menu li.button {
       padding-right: 0;
   }
+    
 }
