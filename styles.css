@@ -9,7 +9,7 @@ body{
 .img-1{
     border-radius: 25px 25px 25px 25px;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     height: 35%;
     margin-top: 30px;
 }
@@ -28,11 +28,21 @@ h1{
     margin-top: 30%;
     margin-left: 35%;
     color: 000;
+    font-family: cursive;
+    position:absolute;
+    font-size: 25px
+           
+}
+h2{
+    margin-top: 30%;
+    margin-left: 20%;
+    color: 000;
     
     position:absolute;
     font-size: 20px
            
 }
+
 
 .container {
   grid-template-columns: 10px 50px 100px;
