@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    font-family: helvetica;
+    line-height: 2;
+}
+.con{
+    padding: 1px;
+}
+.img-1{
+    border-radius: 20px 20px 20px 20px;
+    width: 85%;
+    
+    height: 30%;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+aside{
+    width: 100%;
+    display: block;
+    margin: 0 ;
+}
+.wrapper{
+    display:grid;
+    grid-template-columns:  0% ;
+}
+.wrapper-2{
+    display:grid;
+    grid-template-columns: 0% 50%;
+}
+h1{
+    margin-left: 190;
+    color: fff;
+    margin-top: 150px;
+    position:absolute;
+    font-size: 20px
+        
+      
+}
+h2{
+    margin-left: 70;
+    color: fff;
+    margin-top: 120px;
+    position:absolute;
+    font-size: 20px
+        
+      
+}
+.container {
+  grid-template-columns: 10px 50px 100px;
+  grid-template-rows: 8px auto 80px; 
+  column-gap: 10px;
+  
+}
+side{
+    width: 10%;
+    display:block;
+    background-color: #000;
+    margin: 3%;
+    float: left;
+    
+}
+side>.con>img{
+    width: 140px;
+    float: left;
+    margin-right: 0px;
+    margin-left: 0px
+}
+@media only screen and (max-width:1200px){
+    side>.con>img{
+        width: 10%;
+    }
+}
+@media only screen and (max-width:870px){
+    
+    side{
+        width: 98%;
+    }
+    side>.con>img{
+        width: 30%;
+    }
+}
