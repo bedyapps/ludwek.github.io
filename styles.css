@@ -13,6 +13,14 @@ body{
     height: 50%;
     margin-top: 30px;
 }
+.img-2{
+    border-radius: 25px 25px 25px 25px;
+    width: 200px;
+    margin: 6px;
+    margin-top: 20px;
+    height: 200px;
+}
+
 
 aside{
     width: 100%;
