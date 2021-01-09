@@ -8,9 +8,9 @@ body{
 }
 .img-1{
     border-radius: 25px 25px 25px 25px;
-    width: 100%;
+    width: 80%;
     margin-bottom: 20px;
-    height: 50%;
+    height: 40%;
     margin-top: 30px;
 }
 .img-2{
@@ -19,6 +19,9 @@ body{
     margin: 6px;
     margin-top: 20px;
     height: 170px;
+}
+.button1{
+    background-color: #000;
 }
 
 
